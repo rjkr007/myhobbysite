@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Me</title>
+    <link href="./css/styles.css" rel="stylesheet" text="text/css">
 </head>
 <body>
         <header>
@@ -23,12 +24,13 @@
         </section>
       </header>
   
-      <main>
+      <main class="container">
           <article>
 <form>
     <label for="fname">First Name</label>
+    
     <input type="text" name="fname" id="fname" /> <br>
-
+    <br>
     <label for="sname">Surname</label>
     <input type="text" name="sname" id="sname" /><br>
     <label for="country">country</label>
@@ -40,10 +42,10 @@
     </select>
     <label for="how">How did you hear about</label>
     <input type="radio" id="website" name="how" />website
-    <input type="radio" id="facebook" name="how" />website <br>
+    <input type="radio" id="facebook" name="how" />Facebook <br>
 
     <label for="comment">Comments</label>
-    <textarea id="comment" name="comment" style="height:200px"></textarea>
+    <textarea id="comment" name="comment" style="height:100px"></textarea>
   <br>
   <input type="submit" value="submit" />
 </form>
